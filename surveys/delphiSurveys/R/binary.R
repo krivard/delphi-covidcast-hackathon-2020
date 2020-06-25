@@ -70,7 +70,7 @@ summarize_binary <- function(
       )
       df_out$val[i] <- new_row$val
       df_out$sample_size[i] <- new_row$sample_size
-      df_out$se[i] <- new_row$se
+      df_out$effective_sample_size[i] <- new_row$se
     }
   }
 
