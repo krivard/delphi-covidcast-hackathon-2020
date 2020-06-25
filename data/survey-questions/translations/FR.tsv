@@ -1,0 +1,186 @@
+QID1_QuestionText	<p>Esta encuesta voluntaria es parte de un estudio de investigación dirigido por Delphi Group en la Universidad Carnegie Mellon. Incluso si estás bien de salud, tus respuestas pueden contribuir a la salud pública, ya que permitirán entender mejor hacia dónde se desplaza la pandemia de coronavirus, a fin de mejorar la respuesta local y nacional. </p><br>Los datos recopilados no incluyen información de identificación personal sobre ti, y tus respuestas a todas las preguntas son confidenciales. Los resultados se publicarán en conjunto y no permitirán identificar a los participantes individuales ni sus respuestas.  Facebook no se encarga de realizar este estudio, por lo que no compartiremos con Facebook las respuestas individuales.  La única información que recibimos de Facebook es un número de identificación aleatorio y una cifra estadística que nos permite ponderar la participación de forma adecuada.  Es posible que tus respuestas se compartan con otros investigadores del ámbito de la salud pública, incluidos los que se desempeñan en la Universidad de Maryland. No se prevén riesgos ni se ofrece compensación alguna por participar en este estudio.<div><br>Si tienes preguntas, comunícate con delphi-admin-survey-fb@lists.andrew.cmu.edu. </div><div><br>Debes tener como mínimo 18 años y debes encontrarte actualmente en los Estados Unidos para realizar esta encuesta. ¿Tienes como mínimo 18 años y actualmente te encuentras en los Estados Unidos?</div>
+QID1_Choice1	Oui
+QID1_Choice2	Non
+QID3_QuestionText	<div>Ces dernières 24 heures, est-ce que <strong>vous ou un membre de votre foyer</strong> avez ressenti l’un des symptômes suivants :</div>
+QID3_Choice1	Fièvre (38 °C ou plus)
+QID3_Choice2	Maux de gorge
+QID3_Choice3	Toux
+QID3_Choice4	Essoufflement
+QID3_Choice5	Difficultés respiratoires
+QID3_Answer1	Oui
+QID3_Answer2	Non
+QID4_QuestionText	<div>Combien de personnes dans votre foyer <b>(y compris vous-même)</b>sont <b>malades</b> (<b>fièvre</b>, avec <b>au moins un autre symptôme</b> listé ci-dessus) ?</div>
+QID5_QuestionText	Combien de personnes compte votre foyer <b>au total (avec vous)</b> ?
+QID6_QuestionText	<p>Quel est votre code postal actuel ?</p>
+QID45_QuestionText	Combien d’<b>autres</b> membres de votre communauté locale que vous connaissez personnellement sont <b>malades</b> (<b>fièvre</b>, avec <b>au moins un autre symptôme </b> listé ci-dessus) ?
+QID39_QuestionText	<i>Le reste du sondage entrera plus dans les détails pour mieux comprendre votre expérience personnelle.</i><p></p><p><br></p><p><b>Ces dernières 24 heures</b>, avez-vous <b>personnellement</b> présenté l’un des symptômes suivants ?  (Sélectionnez toutes les réponses applicables.)</p>
+QID39_Choice1	Fièvre
+QID39_Choice2	Toux
+QID39_Choice3	Essoufflement
+QID39_Choice4	Difficultés respiratoires
+QID39_Choice5	Grande fatigue
+QID39_Choice6	Congestion nasale
+QID39_Choice7	Nez qui coule
+QID39_Choice8	Courbatures
+QID39_Choice9	Maux de gorge
+QID39_Choice10	Douleur ou pression constante dans la poitrine
+QID39_Choice11	Nausée ou vomissements
+QID39_Choice12	Diarrhée
+QID39_Choice13	Perte de goût ou d’odorat
+QID39_Choice14	Autre (veuillez préciser) :
+QID39_Choice15	Aucun de ces symptômes
+QID39_Choice16	Douleur oculaire
+QID11_QuestionText	Depuis combien de temps, en jours, présentez-vous ces symptômes ?
+QID12_QuestionText	Vous avez indiqué avoir eu de la fièvre <b>ces dernières 24 heures</b>.  Avez-vous pris votre température ?
+QID12_Choice1	Oui
+QID12_Choice2	Non
+QID42_QuestionText	<div>Quelle était votre température la plus élevée, en °C ?</div>
+QID13_QuestionText	Vous avez indiqué avoir eu de la toux <b>ces dernières 24 heures</b>.  Avez-vous toussé du mucus ?
+QID13_Choice1	Oui, j’avais beaucoup de mucus
+QID13_Choice2	        ➙Oui, j’avais un peu de mucus
+QID13_Choice3	Non, ma toux était sèche
+QID14_QuestionText	Avez-vous été testé(e) pour le COVID-19 (coronavirus) pour votre maladie actuelle ?
+QID14_Choice1	Oui, j’ai été testé(e) et j’ai été déclaré(e) positif(ve) au COVID-19
+QID14_Choice2	Oui, j’ai été testé(e) mais j’ai été déclaré(e) négatif(ve) au COVID-19
+QID14_Choice3	Oui, j’ai été testé(e) mais je n’ai pas reçu les résultats
+QID14_Choice4	Non, j’ai essayé mais je n’ai pas réussi à me faire tester
+QID14_Choice5	Non, je n’ai pas essayé de me faire tester
+QID15_QuestionText	<b>Ces dernières 24 heures</b>, êtes-vous allé(e) à l’hôpital pour faire soigner votre maladie actuelle ?
+QID15_Choice1	Oui
+QID15_Choice2	➙Non
+QID15_Choice3	J’ai essayé, mais je n’ai pas pu me faire soigner
+QID40_QuestionText	<div>Est-ce qu’un professionnel de santé (médecin, infirmière, etc.) vous a <span style="font-weight: bolder;">déjà</span> diagnostiqué une des maladies suivantes ?</div><div><br>(Veuillez sélectionner toutes les réponses applicables)</div>
+QID40_Choice1	Diabète
+QID40_Choice2	Cancer (autre que le cancer de la peau)
+QID40_Choice3	Maladie cardiaque
+QID40_Choice4	Pression artérielle élevée
+QID40_Choice5	Asthme
+QID40_Choice6	Maladie pulmonaire chronique, par exemple bronchopneumopathie chronique obstructive ou emphysème 
+QID40_Choice7	Maladie rénale
+QID40_Choice8	Maladie auto-immune comme l’arthrite rhumatoïde ou la maladie de Crohn
+QID40_Choice9	Aucune de ces réponses
+QID17_QuestionText	Avez-vous été vacciné(e) contre la grippe ces 12 derniers mois ?
+QID17_Choice1	Oui
+QID17_Choice2	Non
+QID21_QuestionText	<p><b>Ces 5 derniers jours</b>, avez-vous été travailler en dehors de votre domicile ?</p>
+QID21_Choice1	Oui
+QID21_Choice2	Non
+QID32_QuestionText	<p><b>Ces 5 derniers jours</b>, avez-vous travaillé ou visité un établissement de soins longue durée ou un EPAHD ?</p>
+QID32_Choice1	Oui
+QID32_Choice2	Non
+QID23_QuestionText	<p><b>Ces 5 derniers jours</b>, avez-vous travaillé ou été volontaire dans un hôpital, un cabinet médical, un service ambulancier, auprès de services d’urgence ou tout autre établissement de santé ?</p>
+QID23_Choice1	Oui
+QID23_Choice2	Non
+QID24_QuestionText	<p><b>Ces 5 derniers jours</b>, avez-vous voyagé en dehors de votre État ?</p>
+QID24_Choice1	Oui
+QID24_Choice2	Non
+QID22_QuestionText	Dans quelle mesure évitez-vous intentionnellement tout contact avec les autres ?
+QID22_Choice1	Tout le temps
+QID22_Choice2	La plupart du temps ; je ne sors que pour faire des courses de première nécessité
+QID22_Choice3	Un peu ; j’ai réduit le nombre de mes sorties dans les lieux publics, les rassemblements sociaux ou au travail
+QID22_Choice4	Jamais
+QID25_QuestionText	<p><strong>Ces 5 derniers jours</strong>, à quelle fréquence vous êtes-vous senti(e)...</p>
+QID25_Choice1	nerveux(se), anxieux(se) ou tendu(e) ?
+QID25_Choice2	déprimé(e) ?
+QID25_Answer1	Jamais
+QID25_Answer2	Une partie du temps
+QID25_Answer3	La plupart du temps
+QID25_Answer4	En permanence
+QID36_QuestionText	Que ressentez-vous à l’idée que vous ou un membre de votre famille proche puissiez être sévèrement touché par le COVID-19 (coronavirus) ?
+QID36_Choice1	Cela m’inquiète beaucoup
+QID36_Choice2	Cela m’inquiète un peu
+QID36_Choice3	Cela ne m’inquiète pas trop
+QID36_Choice4	Cela ne m’inquiète pas du tout
+QID20_QuestionText	<p><b>Ces dernières 24 heures</b>, avec combien de personnes avez-vous été en contact direct, <b>en dehors de votre foyer</b> ?  Veuillez fournir votre meilleure estimation.</p><p><i><small>[« Contact direct » signifie : une conversation de plus de 5 minutes avec une personne à moins de 2 mètres de vous, ou un contact physique comme une poignée de mains, une embrassade ou des bises.]</small></i></p>
+QID20_Choice1	Au travail
+QID20_Choice2	En faisant vos courses de première nécessité
+QID20_Choice3	En situation sociale
+QID20_Choice4	Autre
+QID20_Answer1	Nombre
+QID18_QuestionText	<p><strong>Ces dernières 24 heures</strong>, avez-vous été en contact direct avec une personne qui a <u>récemment</u> été testée positive au COVID-19 (coronavirus) ?</p><p><i><small>[« Contact direct » signifie : une conversation de plus de 5 minutes avec une personne à moins de 2 mètres de vous, ou un contact physique comme une poignée de mains, une embrassade ou des bises.]</small></i><o:p></o:p></p>
+QID18_Choice1	Oui
+QID18_Choice2	Pas à ma connaissance
+QID19_QuestionText	<span lang="EN" style="color: rgb(0, 0, 0); font-size: 11pt; line-height: 16.8667px; font-family: Arial, sans-serif;"><span style="color: rgb(64, 64, 64); font-size: 15px;">Cette personne était-elle un membre de votre foyer ?</span></span>
+QID19_Choice1	Oui
+QID19_Choice2	Non
+QID8_QuestionText	<p> Dans quel État vous trouvez-vous actuellement ?</p>
+QID8_Choice1	Alabama
+QID8_Choice2	Alaska
+QID8_Choice3	Arizona
+QID8_Choice4	Arkansas
+QID8_Choice5	Californie
+QID8_Choice6	Colorado
+QID8_Choice7	Connecticut
+QID8_Choice8	Delaware
+QID8_Choice9	District of Columbia
+QID8_Choice10	Floride
+QID8_Choice11	Géorgie
+QID8_Choice12	Hawaï
+QID8_Choice13	Idaho
+QID8_Choice14	Illinois
+QID8_Choice15	Indiana
+QID8_Choice16	Iowa
+QID8_Choice17	Kansas
+QID8_Choice18	Kentucky
+QID8_Choice19	Louisiane
+QID8_Choice20	Maine
+QID8_Choice21	Maryland
+QID8_Choice22	Massachusetts
+QID8_Choice23	Michigan
+QID8_Choice24	Minnesota
+QID8_Choice25	Mississippi
+QID8_Choice26	Missouri
+QID8_Choice27	Montana
+QID8_Choice28	Nebraska
+QID8_Choice29	Nevada
+QID8_Choice30	New Hampshire
+QID8_Choice31	New Jersey
+QID8_Choice32	Nouveau-Mexique
+QID8_Choice33	New York
+QID8_Choice34	Caroline du Nord
+QID8_Choice35	Dakota du Nord
+QID8_Choice36	Ohio
+QID8_Choice37	Oklahoma
+QID8_Choice38	Oregon
+QID8_Choice39	Pennsylvanie
+QID8_Choice40	Porto Rico
+QID8_Choice41	Rhode Island
+QID8_Choice42	Caroline du Sud
+QID8_Choice43	Dakota du Sud
+QID8_Choice44	Tennessee
+QID8_Choice45	Texas
+QID8_Choice46	Utah
+QID8_Choice47	Vermont
+QID8_Choice48	Virginie
+QID8_Choice49	Washington
+QID8_Choice50	Virginie-Occidentale
+QID8_Choice51	Wisconsin
+QID8_Choice52	Wyoming
+QID8_Choice53	Je ne réside pas aux États-Unis
+QID26_QuestionText	Quel est votre genre ?
+QID26_Choice1	Homme
+QID26_Choice2	        ➙Femme
+QID26_Choice3	        ➙Non binaire
+QID26_Choice4	Je préfère donner une description personnelle :
+QID26_Choice5	Je préfère ne pas répondre
+QID27_QuestionText	Êtes-vous actuellement enceinte ?
+QID27_Choice1	Oui
+QID27_Choice2	Non
+QID27_Choice3	Je préfère ne pas répondre
+QID27_Choice4	Non applicable
+QID37_QuestionText	Quel âge avez-vous ?
+QID37_Choice1	18-24 ans
+QID37_Choice2	25-34 ans
+QID37_Choice3	35-44 ans
+QID37_Choice4	45-54 ans
+QID37_Choice5	55-64 ans
+QID37_Choice6	65-74 ans
+QID37_Choice7	75 ans et plus
+QID28_QuestionText	<p>Combien d’enfants <b>de moins de 18 ans</b> résident actuellement dans votre foyer ?<o:p></o:p></p>
+QID30_QuestionText	<p>Combien d’adultes <b>de 18 à 64 ans</b> résident actuellement dans votre foyer (sans vous) ?</p>
+QID31_QuestionText	Combien d’adultes <span style="font-weight: bolder;">de 65 ans et plus</span> résident actuellement dans votre foyer (sans vous) ?
+QID38_QuestionText	Selon vous, dans quelle mesure l’épidémie de coronavirus représente-t-elle une menace pour vos finances personnelles ?
+QID38_Choice1	Une grande menace
+QID38_Choice2	Une menace modérée
+QID38_Choice3	Une petite menace
+QID38_Choice4	Pas de menace

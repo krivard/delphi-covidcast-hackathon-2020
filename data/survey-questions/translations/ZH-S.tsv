@@ -1,0 +1,186 @@
+QID1_QuestionText	<p>Khảo sát tự nguyện này nằm trong khuôn khổ một nghiên cứu do nhóm Delphi tại Đại học Carnegie Mellon thực hiện. Kể cả khi bạn đang khỏe mạnh, câu trả lời của bạn vẫn có thể góp phần nâng cao hiểu biết về sức khỏe cộng đồng liên quan đến diễn biến của đại dịch virus corona, qua đó cải thiện khả năng ứng phó của chúng ta cả ở địa phương lẫn trên toàn quốc. </p><br>Dữ liệu mà chúng tôi thu thập không bao gồm bất kỳ thông tin nhận dạng cá nhân nào của bạn, đồng thời mọi câu trả lời bạn đưa ra đều sẽ được giữ bí mật. Chúng tôi sẽ công bố kết quả tổng hợp và không nêu rõ danh tính hoặc câu trả lời của từng người tham gia.  Facebook không phải là đơn vị thực hiện nghiên cứu này và sẽ không nhận được câu trả lời nào.  Thông tin duy nhất mà chúng tôi nhận của Facebook là một số ID ngẫu nhiên, cùng một con số thống kê để hỗ trợ việc tính toán chính xác mức độ tham gia.  Câu trả lời của bạn có thể được chia sẻ với các nhà nghiên cứu về sức khỏe cộng đồng khác, bao gồm cả những người ở Đại học Maryland. Không có rủi ro dự kiến và cũng không có khoản thù lao nào dành cho người tham gia.<div><br>Nếu bạn có câu hỏi, hãy liên hệ theo địa chỉ: delphi-admin-survey-fb@lists.andrew.cmu.edu </div><div><br>Bạn phải đủ 18 tuổi trở lên và hiện sống tại Hoa Kỳ thì mới được tham gia khảo sát này. Bạn có đủ 18 tuổi trở lên và hiện sống tại Hoa Kỳ không?</div>
+QID1_Choice1	是
+QID1_Choice2	否
+QID3_QuestionText	<div>在过去的 24 小时内，<strong>您或您家里的任何人</strong>是否经历过以下任何一种或多种情况：</div>
+QID3_Choice1	发烧（100 华氏度或更高）
+QID3_Choice2	咽喉痛
+QID3_Choice3	咳嗽
+QID3_Choice4	呼吸急促
+QID3_Choice5	呼吸困难
+QID3_Answer1	是
+QID3_Answer2	否
+QID4_QuestionText	<div>您家里有多少人<b>（包括您在内）</b><b>生病</b>了（即<b>发烧</b>，同时伴有以上<b>至少一种症状</b>）？</div>
+QID5_QuestionText	您家里<b>（包括您在内）</b>共有多少位成员？
+QID6_QuestionText	<p>您当前所在地的邮编是多少？</p>
+QID45_QuestionText	当地社区内，<b>还有</b>多少您认识的人<b>生病</b>了（即<b>发烧</b>，同时伴有以上<b>至少一种症状</b>）？
+QID39_QuestionText	<i>接下来，我们将会深入调查一些与您个人经历有关的细节。</i><p></p><p><br></p><p><b>在过去的 24 小时内</b>，您<b>自身</b>是否有过以下症状？  （请选择所有适用项。）</p>
+QID39_Choice1	发烧
+QID39_Choice2	咳嗽
+QID39_Choice3	呼吸急促
+QID39_Choice4	呼吸困难
+QID39_Choice5	疲劳或乏力
+QID39_Choice6	鼻塞
+QID39_Choice7	流鼻涕
+QID39_Choice8	肌肉或关节疼痛
+QID39_Choice9	咽喉痛
+QID39_Choice10	持续性胸痛或胸闷
+QID39_Choice11	恶心或呕吐
+QID39_Choice12	腹泻
+QID39_Choice13	丧失嗅觉或味觉
+QID39_Choice14	其他（请具体说明）：
+QID39_Choice15	以上都没有
+QID39_Choice16	眼痛
+QID11_QuestionText	这些症状在您身上持续多久了？（请用天数回答）
+QID12_QuestionText	您刚才说自己<b>在过去的 24 小时内</b>曾有过发烧症状。  您是否量过体温？
+QID12_Choice1	是
+QID12_Choice2	否
+QID42_QuestionText	<div>您的体温最高值是多少华氏度？</div>
+QID13_QuestionText	您刚才说自己<b>在过去的 24 小时内</b>曾有过咳嗽症状。  您咳嗽时是否有痰？
+QID13_Choice1	是，痰多
+QID13_Choice2	        ➙是，痰少
+QID13_Choice3	否，干咳
+QID14_QuestionText	您是否因目前的疾病而接受过新冠病毒检测？
+QID14_Choice1	是，我接受过新冠病毒检测，诊断结果呈阳性
+QID14_Choice2	是，我接受过新冠病毒检测，诊断结果呈阴性
+QID14_Choice3	是，我接受过新冠病毒检测，还没拿到诊断结果
+QID14_Choice4	否，我设法前去接受检测，但无法获得检测
+QID14_Choice5	否，我还没有尝试接受检测
+QID15_QuestionText	<b>在过去的 24 小时内</b>，您是否因目前的疾病到医院寻求过医疗护理？
+QID15_Choice1	是
+QID15_Choice2	➙否
+QID15_Choice3	我寻求过医疗护理，但无法得到护理
+QID40_QuestionText	<div>是否<span style="font-weight: bolder;">曾</span>有医生、护士或其他专业医务人员告知您存在以下任何健康状况？</div><div><br>（请选择所有适用项）</div>
+QID40_Choice1	糖尿病
+QID40_Choice2	癌症（皮肤癌除外）
+QID40_Choice3	心脏病
+QID40_Choice4	高血压
+QID40_Choice5	哮喘
+QID40_Choice6	慢性肺病（如，慢性阻塞性肺疾病 [COPD] 或肺气肿） 
+QID40_Choice7	肾脏疾病
+QID40_Choice8	自体免疫疾病（如，类风湿性关节炎或克罗恩病）
+QID40_Choice9	以上都没有
+QID17_QuestionText	您在过去 12 个月内是否接种过流感疫苗？
+QID17_Choice1	是
+QID17_Choice2	否
+QID21_QuestionText	<p><b>在过去的 5 天内</b>，您是否曾出门工作？</p>
+QID21_Choice1	是
+QID21_Choice2	否
+QID32_QuestionText	<p><b>在过去的 5 天内</b>，您是否去过长期护理机构或疗养院，或在这类机构工作过?</p>
+QID32_Choice1	是
+QID32_Choice2	否
+QID23_QuestionText	<p><b>在过去的 5 天内</b>，您是否曾到医院、医务室、紧急医疗服务机构、应急服务机构或其他任何医疗机构中工作过或担任过志愿者？</p>
+QID23_Choice1	是
+QID23_Choice2	否
+QID24_QuestionText	<p><b>在过去的 5 天内</b>，您是否到过所在州以外的地方？</p>
+QID24_Choice1	是
+QID24_Choice2	否
+QID22_QuestionText	您在主动与他人隔离这一点上做到了什么程度？
+QID22_Choice1	从始至终
+QID22_Choice2	大多数情况下主动与他人隔离，我只在购买食物或其他必需品时出门
+QID22_Choice3	部分时间，我减少了出入公共场所、参加日常聚会和去工作场所的时间
+QID22_Choice4	从不
+QID25_QuestionText	<p><strong>在过去的 5 天内</strong>，您出现以下情况的频率如何：</p>
+QID25_Choice1	感到紧张、焦虑或急躁不安
+QID25_Choice2	感到抑郁
+QID25_Answer1	从不
+QID25_Answer2	偶尔
+QID25_Answer3	经常
+QID25_Answer4	总是
+QID36_QuestionText	对于您或您的直系亲属可能因新冠病毒感染重病这件事，您内心的状态是怎样的？
+QID36_Choice1	非常担忧
+QID36_Choice2	比较担忧
+QID36_Choice3	不太担忧
+QID36_Choice4	一点也不担忧
+QID20_QuestionText	<p><b>在过去的 24 小时内</b>，您<b>出门在外</b>与多少人有过密切接触？  提供估计的人数即可。</p><p><i><small>[“密切接触”是指以下两种情况：1. 长时间（5 分钟以上）聊天，双方距离小于 6 英尺；2. 握手、拥抱或亲吻等肢体接触。]</small></i></p>
+QID20_Choice1	上班时
+QID20_Choice2	购买食物和其他必需品时
+QID20_Choice3	与人交流时
+QID20_Choice4	在其他外出场合时
+QID20_Answer1	人数
+QID18_QuestionText	<p><strong>在过去的 24 小时内</strong>，您是否与<u>最近</u>新冠病毒检测呈阳性的人员有过密切接触？</p><p><i><small>[“密切接触”是指以下两种情况：1. 长时间（5 分钟以上）聊天，双方距离小于 6 英尺；2. 握手、拥抱或亲吻等肢体接触。]</small></i><o:p></o:p></p>
+QID18_Choice1	是
+QID18_Choice2	据我所知，没有
+QID19_QuestionText	<span lang="EN" style="color: rgb(0, 0, 0); font-size: 11pt; line-height: 16.8667px; font-family: Arial, sans-serif;"><span style="color: rgb(64, 64, 64); font-size: 15px;">这个人是否是您的家庭成员？</span></span>
+QID19_Choice1	是
+QID19_Choice2	否
+QID8_QuestionText	<p> 您目前位于哪个州？</p>
+QID8_Choice1	阿拉巴马州
+QID8_Choice2	阿拉斯加州
+QID8_Choice3	亚利桑那州
+QID8_Choice4	阿肯色州
+QID8_Choice5	加利福尼亚州
+QID8_Choice6	科罗拉多州
+QID8_Choice7	康涅狄格州
+QID8_Choice8	特拉华州
+QID8_Choice9	华盛顿哥伦比亚特区
+QID8_Choice10	佛罗里达州
+QID8_Choice11	乔治亚州
+QID8_Choice12	夏威夷州
+QID8_Choice13	爱达华州
+QID8_Choice14	伊利诺伊州
+QID8_Choice15	印第安纳州
+QID8_Choice16	爱荷华州
+QID8_Choice17	堪萨斯州
+QID8_Choice18	肯塔基州
+QID8_Choice19	路易斯安那州
+QID8_Choice20	缅因州
+QID8_Choice21	马里兰州
+QID8_Choice22	马萨诸塞州
+QID8_Choice23	密歇根州
+QID8_Choice24	明尼苏达州
+QID8_Choice25	密西西比州
+QID8_Choice26	密苏里州
+QID8_Choice27	蒙大拿州
+QID8_Choice28	内布拉斯加州
+QID8_Choice29	内华达州
+QID8_Choice30	新罕布什尔州
+QID8_Choice31	新泽西州
+QID8_Choice32	新墨西哥州
+QID8_Choice33	纽约州
+QID8_Choice34	北卡罗来纳州
+QID8_Choice35	北达科他州
+QID8_Choice36	俄亥俄州
+QID8_Choice37	俄克拉荷马州
+QID8_Choice38	俄勒冈州
+QID8_Choice39	宾夕法尼亚州
+QID8_Choice40	波多黎各
+QID8_Choice41	罗得岛州
+QID8_Choice42	南卡罗来纳州
+QID8_Choice43	南达科他州
+QID8_Choice44	田纳西州
+QID8_Choice45	德克萨斯州
+QID8_Choice46	犹他州
+QID8_Choice47	佛蒙特州
+QID8_Choice48	弗吉尼亚州
+QID8_Choice49	华盛顿州
+QID8_Choice50	西弗吉尼亚州
+QID8_Choice51	威斯康星州
+QID8_Choice52	怀俄明州
+QID8_Choice53	我不住在美国境内
+QID26_QuestionText	您的性别是？
+QID26_Choice1	男
+QID26_Choice2	        ➙女
+QID26_Choice3	        ➙非二元
+QID26_Choice4	自行说明：
+QID26_Choice5	不想说
+QID27_QuestionText	您目前是否怀孕？
+QID27_Choice1	是
+QID27_Choice2	否
+QID27_Choice3	不想说
+QID27_Choice4	不适用
+QID37_QuestionText	您处于以下哪个年龄段？
+QID37_Choice1	18-24 岁
+QID37_Choice2	25-34 岁
+QID37_Choice3	35-44 岁
+QID37_Choice4	45-54 岁
+QID37_Choice5	55-64 岁
+QID37_Choice6	65-74 岁
+QID37_Choice7	75 岁或以上
+QID28_QuestionText	<p>您家里目前有几位<b>未满 18 岁</b>的孩子？<o:p></o:p></p>
+QID30_QuestionText	<p>您家里目前有几位年龄在<b> 18-64 岁之间</b>的成年人（不包括您）？</p>
+QID31_QuestionText	您家里目前有几位年龄在<span style="font-weight: bolder;"> 65 岁或以上</span>的成年人（不包括您）？
+QID38_QuestionText	您认为新冠疫情爆发对您家庭造成的经济威胁有多大？
+QID38_Choice1	威胁很大
+QID38_Choice2	威胁比较大
+QID38_Choice3	威胁不太大
+QID38_Choice4	完全没有威胁

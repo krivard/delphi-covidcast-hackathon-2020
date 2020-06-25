@@ -1,0 +1,186 @@
+QID1_QuestionText	<p>This voluntary survey is part of a research study led by the Delphi group at Carnegie Mellon University. Even if you are healthy, your responses may contribute to a better public health understanding of where the coronavirus pandemic is moving, to improve our local and national responses. </p><br>The data captured does not include any personally identifiable information about you and your answers to all questions will remain confidential. Published results will be in aggregate and will not identify individual participants or their responses.  This study is not conducted by Facebook and no individual responses will be shared with Facebook.  The only information that we receive from Facebook is a random ID number and a statistical number that help us weigh participation properly.  Your responses may be shared with other public health researchers, including those at the University of Maryland. There are no foreseeable risks in participating and no compensation is offered.<div><br>If you have any questions, please contact: delphi-admin-survey-fb@lists.andrew.cmu.edu </div><div><br>You must be aged 18 years or older and currently located in the US to take this survey. Are you aged 18 or older and currently located in the US?</div>
+QID1_Choice1	Sí
+QID1_Choice2	No
+QID3_QuestionText	<div>¿<strong>Tú o alguno de los miembros de tu hogar</strong> habéis tenido alguno de estos síntomas en las últimas 24 horas?</div>
+QID3_Choice1	Fiebre (37 °C o más)
+QID3_Choice2	Dolor de garganta
+QID3_Choice3	Tos
+QID3_Choice4	Falta de aliento
+QID3_Choice5	Dificultad para respirar
+QID3_Answer1	Sí
+QID3_Answer2	No
+QID4_QuestionText	<div>¿Cuántos de los miembros de tu hogar <b>(incluido tú)</b> están <b>enfermos</b> (presentan <b>fiebre</b> y <b>al menos otro síntoma más</b> de la lista anterior)?</div>
+QID5_QuestionText	En total, ¿cuántas personas viven en tu hogar <b>(incluido tú)</b>?
+QID6_QuestionText	<p>¿Cuál es tu código postal actual?</p>
+QID45_QuestionText	¿Cuántas personas <b>más</b> de tu comunidad local a las que conozcas personalmente están <b>enfermas</b> (presentan <b>fiebre</b> y <b>al menos un síntoma más</b> de la lista anterior)?
+QID39_QuestionText	<i>El resto de la encuesta trata en mayor detalle sobre tu experiencia personal.</i><p></p><p><br></p><p><b>En las últimas 24 horas</b>, ¿<b>has experimentado</b> alguno de los siguientes síntomas?  Selecciona todas las opciones que correspondan.</p>
+QID39_Choice1	Fiebre
+QID39_Choice2	Tos
+QID39_Choice3	Falta de aliento
+QID39_Choice4	Dificultad para respirar
+QID39_Choice5	Cansancio o fatiga
+QID39_Choice6	Congestión nasal
+QID39_Choice7	Secreción nasal
+QID39_Choice8	Dolor muscular o articular
+QID39_Choice9	Dolor de garganta
+QID39_Choice10	Dolor o presión persistentes en el pecho
+QID39_Choice11	Náuseas o vómitos
+QID39_Choice12	Diarrea
+QID39_Choice13	Pérdida del sentido del gusto o el olfato
+QID39_Choice14	Otro síntoma (especifica cuál):
+QID39_Choice15	Ninguna de las opciones anteriores
+QID39_Choice16	Dolor en los ojos
+QID11_QuestionText	¿Cuántos días hace que tienes estos síntomas?
+QID12_QuestionText	Has mencionado que has tenido fiebre <b>en las últimas 24 horas</b>.  ¿Te has tomado la temperatura?
+QID12_Choice1	Sí
+QID12_Choice2	No
+QID42_QuestionText	<div>¿Cuál ha sido la temperatura más alta que has tenido, en °C?</div>
+QID13_QuestionText	Has mencionado que has tenido tos <b>en las últimas 24 horas</b>.  ¿Has tenido tos con catarro?
+QID13_Choice1	Sí, he tenido tos con mucho catarro
+QID13_Choice2	        ➙Sí, he tenido tos con un poco de catarro
+QID13_Choice3	No, he tenido tos seca
+QID14_QuestionText	¿Te han realizado la prueba del COVID-19 (coronavirus) debido a tu enfermedad actual?
+QID14_Choice1	Sí, me la han realizado y ha dado positiva en COVID-19
+QID14_Choice2	Sí, me la han realizado, pero ha dado negativa en COVID-19
+QID14_Choice3	Sí, me la han realizado, pero todavía no he recibido el resultado
+QID14_Choice4	No, he intentado que me la realizaran, pero no ha sido posible
+QID14_Choice5	No, no he intentado que me la realizaran
+QID15_QuestionText	<b>En las últimas 24 horas</b>, ¿has acudido al hospital para recibir asistencia debido a tu enfermedad actual?
+QID15_Choice1	Sí
+QID15_Choice2	➙No
+QID15_Choice3	Lo he intentado, pero no he podido recibir atención
+QID40_QuestionText	<div>¿<span style="font-weight: bolder;">Alguna vez</span> un médico, personal de enfermería u otro profesional de la salud te ha indicado que tienes alguna de las siguientes afecciones médicas?</div><div><br>Selecciona todas las opciones que correspondan.</div>
+QID40_Choice1	Diabetes
+QID40_Choice2	Cáncer (que no sea cáncer de piel)
+QID40_Choice3	Enfermedad coronaria
+QID40_Choice4	Hipertensión
+QID40_Choice5	Asma
+QID40_Choice6	Enfermedad pulmonar crónica, como EPOC o enfisema 
+QID40_Choice7	Enfermedad renal
+QID40_Choice8	Trastorno autoinmunitario, como artritis reumatoide o enfermedad de Crohn
+QID40_Choice9	Ninguna de las opciones anteriores
+QID17_QuestionText	¿Te has vacunado contra la gripe en los últimos 12 meses?
+QID17_Choice1	Sí
+QID17_Choice2	No
+QID21_QuestionText	<p><b>En los últimos cinco días</b>, ¿has salido de casa para ir al trabajo?</p>
+QID21_Choice1	Sí
+QID21_Choice2	No
+QID32_QuestionText	<p><b>En los últimos cinco días</b>, ¿has trabajado o has estado en un centro de atención prolongada o una residencia para la tercera edad?</p>
+QID32_Choice1	Sí
+QID32_Choice2	No
+QID23_QuestionText	<p><b>En los últimos cinco días</b>, ¿has trabajado como empleado o voluntario en un hospital, un consultorio médico, un servicio de ambulancia, un servicio de primeros auxilios u otro entorno de atención médica?</p>
+QID23_Choice1	Sí
+QID23_Choice2	No
+QID24_QuestionText	<p><b>En los últimos cinco días</b>, ¿has viajado fuera de tu estado?</p>
+QID24_Choice1	Sí
+QID24_Choice2	No
+QID22_QuestionText	¿En qué medida evitas intencionalmente estar en contacto con otras personas?
+QID22_Choice1	Siempre
+QID22_Choice2	La mayor parte del tiempo; solo salgo de casa para comprar comida y otros artículos esenciales
+QID22_Choice3	Parte del tiempo; he reducido mis salidas a espacios públicos, a reuniones sociales o al trabajo
+QID22_Choice4	Nunca
+QID25_QuestionText	<p><strong>En los últimos cinco días</strong>, ¿con cuánta frecuencia has sentido lo siguiente?</p>
+QID25_Choice1	Nervios o ansiedad
+QID25_Choice2	Depresión
+QID25_Answer1	Nunca
+QID25_Answer2	Algunas veces
+QID25_Answer3	La mayoría de las veces
+QID25_Answer4	Siempre
+QID36_QuestionText	¿Cómo te sientes ante la posibilidad de que tú o un familiar directo podáis enfermar gravemente por COVID-19 (enfermedad del coronavirus)?
+QID36_Choice1	Muy preocupado
+QID36_Choice2	Algo preocupado/a
+QID36_Choice3	No muy preocupado/a
+QID36_Choice4	Para nada preocupado
+QID20_QuestionText	<p><b>En las últimas 24 horas</b>, ¿con cuántas personas has tenido contacto directo <b>fuera de tu hogar</b>?  Basta con proporcionar una estimación aproximada.</p><p><i><small>[“Contacto directo” se refiere a una conversación de más de cinco minutos con una persona a menos de dos metros de distancia o al contacto físico, como un apretón de manos, un abrazo o un beso].</small></i></p>
+QID20_Choice1	En el trabajo
+QID20_Choice2	Al comprar alimentos u otros artículos esenciales
+QID20_Choice3	En contextos sociales
+QID20_Choice4	Otro
+QID20_Answer1	Número
+QID18_QuestionText	<p><strong>En las últimas 24 horas</strong>, ¿has tenido contacto directo con alguien que <u>recientemente</u> haya dado positivo en la prueba del COVID-19 (coronavirus)?</p><p><i><small>[“Contacto directo” se refiere a una conversación de más de cinco minutos con una persona a menos de dos metros de distancia o al contacto físico, como un apretón de manos, un abrazo o un beso].</small></i><o:p></o:p></p>
+QID18_Choice1	Sí
+QID18_Choice2	No que yo sepa
+QID19_QuestionText	<span lang="EN" style="color: rgb(0, 0, 0); font-size: 11pt; line-height: 16.8667px; font-family: Arial, sans-serif;"><span style="color: rgb(64, 64, 64); font-size: 15px;">¿Esta persona vive en tu hogar?</span></span>
+QID19_Choice1	Sí
+QID19_Choice2	No
+QID8_QuestionText	<p> ¿En qué estado resides actualmente?</p>
+QID8_Choice1	Alabama
+QID8_Choice2	Alaska
+QID8_Choice3	Arizona
+QID8_Choice4	Arkansas
+QID8_Choice5	California
+QID8_Choice6	Colorado
+QID8_Choice7	Connecticut
+QID8_Choice8	Delaware
+QID8_Choice9	Distrito de Columbia
+QID8_Choice10	Florida
+QID8_Choice11	Georgia
+QID8_Choice12	Hawái
+QID8_Choice13	Idaho
+QID8_Choice14	Illinois
+QID8_Choice15	Indiana
+QID8_Choice16	Iowa
+QID8_Choice17	Kansas
+QID8_Choice18	Kentucky
+QID8_Choice19	Luisiana
+QID8_Choice20	Maine
+QID8_Choice21	Maryland
+QID8_Choice22	Massachusetts
+QID8_Choice23	Michigan
+QID8_Choice24	Minnesota
+QID8_Choice25	Misisipi
+QID8_Choice26	Misuri
+QID8_Choice27	Montana
+QID8_Choice28	Nebraska
+QID8_Choice29	Nevada
+QID8_Choice30	Nuevo Hampshire
+QID8_Choice31	Nueva Jersey
+QID8_Choice32	Nuevo México
+QID8_Choice33	Nueva York
+QID8_Choice34	Carolina del Norte
+QID8_Choice35	Dakota del Norte
+QID8_Choice36	Ohio
+QID8_Choice37	Oklahoma
+QID8_Choice38	Oregón
+QID8_Choice39	Pensilvania
+QID8_Choice40	Puerto Rico
+QID8_Choice41	Rhode Island
+QID8_Choice42	Carolina del Sur
+QID8_Choice43	Dakota del Sur
+QID8_Choice44	Tennessee
+QID8_Choice45	Texas
+QID8_Choice46	Utah
+QID8_Choice47	Vermont
+QID8_Choice48	Virginia
+QID8_Choice49	Washington
+QID8_Choice50	Virginia Occidental
+QID8_Choice51	Wisconsin
+QID8_Choice52	Wyoming
+QID8_Choice53	No resido en los Estados Unidos
+QID26_QuestionText	¿De qué sexo eres?
+QID26_Choice1	Hombre
+QID26_Choice2	        ➙Mujer
+QID26_Choice3	        ➙No binario
+QID26_Choice4	Prefiero describirme:
+QID26_Choice5	Prefiero no responder
+QID27_QuestionText	¿Estás embarazada en este momento?
+QID27_Choice1	Sí
+QID27_Choice2	No
+QID27_Choice3	Prefiero no responder
+QID27_Choice4	No aplicable
+QID37_QuestionText	¿Qué edad tienes?
+QID37_Choice1	Entre 18 y 24 años
+QID37_Choice2	Entre 25 y 34 años
+QID37_Choice3	Entre 35 y 44 años
+QID37_Choice4	Entre 45 y 54 años
+QID37_Choice5	Entre 55 y 64 años
+QID37_Choice6	Entre 65 y 74 años
+QID37_Choice7	75 años o más
+QID28_QuestionText	<p>¿Cuántas personas <b>menores de 18 años</b> viven en tu hogar actualmente?<o:p></o:p></p>
+QID30_QuestionText	<p>¿Cuántos adultos de <b>entre 18 y 64 años</b> viven en tu hogar actualmente (sin incluirte a ti)?</p>
+QID31_QuestionText	¿Cuántos adultos de <span style="font-weight: bolder;">65 años o más</span> viven en tu hogar actualmente (sin incluirte a ti)?
+QID38_QuestionText	¿Qué amenaza supone el brote de coronavirus para las finanzas de tu hogar?
+QID38_Choice1	Una amenaza importante
+QID38_Choice2	Una amenaza moderada
+QID38_Choice3	No supone una amenaza muy grande
+QID38_Choice4	No supone una amenaza en absoluto

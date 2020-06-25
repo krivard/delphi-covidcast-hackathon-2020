@@ -1,0 +1,186 @@
+QID1_QuestionText	<p>Esta pesquisa voluntária faz parte de um estudo conduzido pelo grupo Delphi na Universidade Carnegie Mellon. Mesmo se você está saudável, suas respostas podem contribuir para um melhor entendimento da saúde pública nos lugares aonde a pandemia de coronavírus está chegando e, assim, melhorar nossas respostas locais e nacionais. </p><br>Os dados capturados não incluem nenhuma informação de identificação pessoal sobre você, e suas respostas para todas as perguntas permanecerão confidenciais. Os resultados publicados serão agregados e não identificarão participantes individuais ou suas respostas.  Esse estudo não é conduzido pelo Facebook, e nenhuma resposta individual será compartilhada com o Facebook.  As únicas informações que recebemos do Facebook são um número de identificação aleatório e um número estatístico que nos ajudam a ponderar a participação adequadamente.  Suas respostas podem ser compartilhadas com outros pesquisadores de saúde pública, incluindo os da Universidade de Maryland. Não há riscos previsíveis em participar, e nenhuma remuneração é oferecida.<div><br>Em caso de dúvida, entre em contato pelo email delphi-admin-survey-fb@lists.andrew.cmu.edu </div><div><br>Para poder participar desta pesquisa, você precisa ter no mínimo 18 anos de idade e estar morando atualmente nos Estados Unidos. Você tem 18 anos de idade ou mais e está morando atualmente nos Estados Unidos?</div>
+QID1_Choice1	Có
+QID1_Choice2	Không
+QID3_QuestionText	<div>Trong 24 giờ qua, <strong>bạn hoặc thành viên gia đình của bạn</strong> có bất kỳ triệu chứng nào sau đây không:</div>
+QID3_Choice1	Sốt (từ 100°F trở lên)
+QID3_Choice2	Đau họng
+QID3_Choice3	Ho
+QID3_Choice4	Thở ngắn
+QID3_Choice5	Khó thở
+QID3_Answer1	Rồi
+QID3_Answer2	Không
+QID4_QuestionText	<div>Hộ gia đình của bạn có bao nhiêu người <b>(bao gồm cả bạn)</b> đang <b>bị bệnh</b> (<b>sốt</b>, kèm theo <b>ít nhất một triệu chứng khác</b> có trong danh sách phía trên)?</div>
+QID5_QuestionText	Hộ gia đình của bạn có <b>tổng cộng bao nhiêu người (tính cả bạn)</b>?
+QID6_QuestionText	<p>Mã ZIP hiện tại của bạn là gì?</p>
+QID45_QuestionText	Có bao nhiêu người <b>khác</b> sống tại cộng đồng địa phương mà bạn biết là đang <b>bị bệnh</b> (<b>sốt</b>, kèm theo <b>ít nhất một triệu chứng khác</b> có trong danh sách phía trên)?
+QID39_QuestionText	<i>Phần còn lại của khảo sát sẽ đi vào chi tiết để hiểu rõ hơn về trải nghiệm của cá nhân bạn.</i><p></p><p><br></p><p><b>Trong 24 giờ qua</b>, <b>cá nhân bạn</b> có bất kỳ triệu chứng nào sau đây không?  (Chọn tất cả các đáp án phù hợp.)</p>
+QID39_Choice1	Sốt
+QID39_Choice2	Ho
+QID39_Choice3	Thở ngắn
+QID39_Choice4	Khó thở
+QID39_Choice5	Mệt mỏi hoặc kiệt sức
+QID39_Choice6	Ngạt mũi
+QID39_Choice7	Sổ mũi
+QID39_Choice8	Đau nhức cơ hoặc khớp
+QID39_Choice9	Đau họng
+QID39_Choice10	Đau hoặc tức ngực dai dẳng
+QID39_Choice11	Chóng mặt hoặc buồn nôn
+QID39_Choice12	Tiêu chảy
+QID39_Choice13	Mất khứu giác hoặc vị giác
+QID39_Choice14	Khác (vui lòng chỉ rõ):
+QID39_Choice15	Không mục nào ở trên
+QID39_Choice16	Đau mắt
+QID11_QuestionText	Bạn có các triệu chứng này bao lâu rồi (tính bằng ngày)?
+QID12_QuestionText	Bạn cho biết là mình bị sốt <b>trong 24 giờ qua</b>.  Bạn có đo thân nhiệt không?
+QID12_Choice1	Rồi
+QID12_Choice2	Không
+QID42_QuestionText	<div>Thân nhiệt cao nhất của bạn là bao nhiêu (tính bằng °F)?</div>
+QID13_QuestionText	Bạn cho biết là mình bị ho <b>trong 24 giờ qua</b>.  Bạn có ho ra đờm không?
+QID13_Choice1	Có, tôi ho ra nhiều đờm
+QID13_Choice2	        ➙Có, tôi ho ra ít đờm
+QID13_Choice3	Không, tôi ho khan
+QID14_QuestionText	Với tình trạng bệnh hiện tại, bạn đã được xét nghiệm COVID-19 (virus corona) chưa?
+QID14_Choice1	Rồi, tôi đã xét nghiệm và nhận được kết quả dương tính với COVID-19
+QID14_Choice2	Rồi, tôi đã xét nghiệm và nhận được kết quả âm tính với COVID-19
+QID14_Choice3	Rồi, tôi đã xét nghiệm nhưng chưa nhận được kết quả
+QID14_Choice4	Chưa, tôi đã yêu cầu nhưng không được xét nghiệm
+QID14_Choice5	Chưa, tôi chưa yêu cầu xét nghiệm
+QID15_QuestionText	<b>Trong 24 giờ qua</b>, bạn có đến bệnh viện để được chăm sóc cho tình hình bệnh hiện tại không?
+QID15_Choice1	Có
+QID15_Choice2	➙Không
+QID15_Choice3	Tôi đã đến nhưng chưa được chăm sóc
+QID40_QuestionText	<div>Bác sĩ, y tá hoặc chuyên gia y tế khác đã <span style="font-weight: bolder;">bao giờ</span> nói với bạn là bạn có bất kỳ tình trạng bệnh lý nào sau đây chưa?</div><div><br>(Vui lòng chọn tất cả các đáp án phù hợp)</div>
+QID40_Choice1	Tiểu đường
+QID40_Choice2	Ung thư (ngoài ung thư da)
+QID40_Choice3	Bệnh tim
+QID40_Choice4	Cao huyết áp
+QID40_Choice5	Hen phế quản
+QID40_Choice6	Bệnh phổi mãn tính như COPD hoặc khí thũng 
+QID40_Choice7	Bệnh thận
+QID40_Choice8	Rối loạn tự miễn dịch như viêm khớp dạng thấp hoặc bệnh Crohn
+QID40_Choice9	Không mục nào ở trên
+QID17_QuestionText	Bạn đã tiêm ngừa cúm trong 12 tháng qua chưa?
+QID17_Choice1	Có
+QID17_Choice2	Không
+QID21_QuestionText	<p><b>Trong 5 ngày qua</b>, bạn có ra khỏi nhà để làm việc không?</p>
+QID21_Choice1	Có
+QID21_Choice2	Không
+QID32_QuestionText	<p><b>Trong 5 ngày qua</b>, bạn có làm việc ở hay ghé thăm cơ sở chăm sóc dài hạn hoặc viện dưỡng lão nào không?</p>
+QID32_Choice1	Có
+QID32_Choice2	Không
+QID23_QuestionText	<p><b>Trong 5 ngày qua</b>, bạn có làm việc hoặc tham gia tình nguyện ở bệnh viện, phòng khám, dịch vụ cấp cứu, dịch vụ phản ứng đầu tiên hoặc bất kỳ môi trường chăm sóc sức khỏe nào khác không?</p>
+QID23_Choice1	Có
+QID23_Choice2	Không
+QID24_QuestionText	<p><b>Trong 5 ngày qua</b>, bạn có ra khỏi tiểu bang của mình không?</p>
+QID24_Choice1	Có
+QID24_Choice2	Không
+QID22_QuestionText	Bạn chủ động tránh tiếp xúc với người khác đến mức nào?
+QID22_Choice1	Toàn bộ thời gian
+QID22_Choice2	Hầu hết thời gian; tôi chỉ ra khỏi nhà để mua thực phẩm và nhu yếu phẩm khác
+QID22_Choice3	Thỉnh thoảng; tôi đã giảm thời gian mình có mặt ở nơi công cộng, các buổi tụ họp xã hội hoặc nơi làm việc
+QID22_Choice4	Không có lúc nào
+QID25_QuestionText	<p><strong>Trong 5 ngày qua</strong>, bạn có hay ...</p>
+QID25_Choice1	cảm thấy bất an, lo lắng, bồn chồn không?
+QID25_Choice2	cảm thấy chán nản không?
+QID25_Answer1	Không có lúc nào
+QID25_Answer2	Thỉnh thoảng
+QID25_Answer3	Thường xuyên
+QID25_Answer4	Luôn luôn
+QID36_QuestionText	Bạn cảm thấy thế nào về khả năng bạn hoặc ai đó trong gia đình riêng của mình có thể bị bệnh nặng do COVID-19 (bệnh do virus corona)?
+QID36_Choice1	Rất lo lắng
+QID36_Choice2	Có phần lo lắng
+QID36_Choice3	Không lo lắng lắm
+QID36_Choice4	Không lo lắng chút nào
+QID20_QuestionText	<p><b>Trong 24 giờ qua</b>, bạn đã tiếp xúc trực tiếp với bao nhiêu người <b>bên ngoài hộ gia đình của mình</b>?  Bạn chỉ cần đưa ra con số ước tính.</p><p><i><small>["Tiếp xúc trực tiếp" nghĩa là: trò chuyện hơn 5 phút với người đứng cách bạn không đến 6 feet (2 mét) hoặc tiếp xúc cơ thể như bắt tay, ôm hoặc hôn.]</small></i></p>
+QID20_Choice1	Ở nơi làm việc
+QID20_Choice2	Khi mua sắm hàng hóa và nhu yếu phẩm khác
+QID20_Choice3	Trong các tình huống xã hội
+QID20_Choice4	Khác
+QID20_Answer1	Số
+QID18_QuestionText	<p><strong>Trong 24 giờ qua</strong>, bạn có tiếp xúc trực tiếp với bất kỳ ai <u>mới</u> có kết quả xét nghiệm dương tính với COVID-19 (virus corona) không?</p><p><i><small>["Tiếp xúc trực tiếp" nghĩa là: trò chuyện hơn 5 phút với người đứng cách bạn không đến 6 feet (2 mét) hoặc tiếp xúc cơ thể như bắt tay, ôm hoặc hôn.]</small></i><o:p></o:p></p>
+QID18_Choice1	Có
+QID18_Choice2	Tôi không biết
+QID19_QuestionText	<span lang="EN" style="color: rgb(0, 0, 0); font-size: 11pt; line-height: 16.8667px; font-family: Arial, sans-serif;"><span style="color: rgb(64, 64, 64); font-size: 15px;">Người này có phải là thành viên trong hộ gia đình của bạn không?</span></span>
+QID19_Choice1	Có
+QID19_Choice2	Không
+QID8_QuestionText	<p> Bạn hiện đang ở tiểu bang nào?</p>
+QID8_Choice1	Alabama
+QID8_Choice2	Alaska
+QID8_Choice3	Arizona
+QID8_Choice4	Arkansas
+QID8_Choice5	California
+QID8_Choice6	Colorado
+QID8_Choice7	Connecticut
+QID8_Choice8	Delaware
+QID8_Choice9	District of Columbia
+QID8_Choice10	Florida
+QID8_Choice11	Georgia
+QID8_Choice12	Hawaii
+QID8_Choice13	Idaho
+QID8_Choice14	Illinois
+QID8_Choice15	Indiana
+QID8_Choice16	Iowa
+QID8_Choice17	Kansas
+QID8_Choice18	Kentucky
+QID8_Choice19	Louisiana
+QID8_Choice20	Maine
+QID8_Choice21	Maryland
+QID8_Choice22	Massachusetts
+QID8_Choice23	Michigan
+QID8_Choice24	Minnesota
+QID8_Choice25	Mississippi
+QID8_Choice26	Missouri
+QID8_Choice27	Montana
+QID8_Choice28	Nebraska
+QID8_Choice29	Nevada
+QID8_Choice30	New Hampshire
+QID8_Choice31	New Jersey
+QID8_Choice32	New Mexico
+QID8_Choice33	New York
+QID8_Choice34	North Carolina
+QID8_Choice35	North Dakota
+QID8_Choice36	Ohio
+QID8_Choice37	Oklahoma
+QID8_Choice38	Oregon
+QID8_Choice39	Pennsylvania
+QID8_Choice40	Puerto Rico
+QID8_Choice41	Rhode Island
+QID8_Choice42	South Carolina
+QID8_Choice43	South Dakota
+QID8_Choice44	Tennessee
+QID8_Choice45	Texas
+QID8_Choice46	Utah
+QID8_Choice47	Vermont
+QID8_Choice48	Virginia
+QID8_Choice49	Washington
+QID8_Choice50	West Virginia
+QID8_Choice51	Wisconsin
+QID8_Choice52	Wyoming
+QID8_Choice53	Tôi không sống ở Hoa Kỳ
+QID26_QuestionText	Giới tính của bạn là gì?
+QID26_Choice1	Nam
+QID26_Choice2	        ➙Nữ
+QID26_Choice3	        ➙Không xác định giới tính
+QID26_Choice4	Muốn tự mô tả:
+QID26_Choice5	Không muốn trả lời
+QID27_QuestionText	Bạn có đang mang thai không?
+QID27_Choice1	Có
+QID27_Choice2	Không
+QID27_Choice3	Không muốn trả lời
+QID27_Choice4	Không áp dụng
+QID37_QuestionText	Bạn bao nhiêu tuổi?
+QID37_Choice1	18-24 tuổi
+QID37_Choice2	25 - 34 tuổi
+QID37_Choice3	35 - 44 tuổi
+QID37_Choice4	45 - 54 tuổi
+QID37_Choice5	55 - 64 tuổi
+QID37_Choice6	65 - 74 tuổi
+QID37_Choice7	75 tuổi trở lên
+QID28_QuestionText	<p>Có bao nhiêu trẻ em <b>dưới 18 tuổi</b> hiện đang ở trong hộ gia đình của bạn?<o:p></o:p></p>
+QID30_QuestionText	<p>Có bao nhiêu người lớn <b>từ 18 đến 64 tuổi</b> hiện đang ở trong hộ gia đình của bạn (không tính bạn)?</p>
+QID31_QuestionText	Có bao nhiêu người lớn <span style="font-weight: bolder;">65 tuổi trở lên</span> hiện đang ở trong hộ gia đình của bạn (không tính bạn)?
+QID38_QuestionText	Bạn cho rằng sự bùng phát của virus corona ảnh hưởng đến tình hình tài chính của hộ gia đình mình đến mức nào?
+QID38_Choice1	Ảnh hưởng nhiều
+QID38_Choice2	Đe dọa vừa phải
+QID38_Choice3	Không đe dọa lắm
+QID38_Choice4	Không ảnh hưởng chút nào

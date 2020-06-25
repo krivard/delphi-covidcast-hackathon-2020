@@ -1,0 +1,186 @@
+QID1_QuestionText	<p>This voluntary survey is part of a research study led by the Delphi group at Carnegie Mellon University. Even if you are healthy, your responses may contribute to a better public health understanding of where the coronavirus pandemic is moving, to improve our local and national responses.&nbsp;</p><br>The data captured does not include any personally identifiable information about you and your answers to all questions will remain confidential. Published results will be in aggregate and will not identify individual participants or their responses.&nbsp; This study is not conducted by Facebook and no individual responses will be shared back to Facebook.&nbsp; The only information we receive from Facebook is a random ID number and a statistical number that help us weigh participation properly.&nbsp; Your responses may be shared with other public health researchers, including those at the University of Maryland. There are no foreseeable risks in participating and no compensation is offered.<div><br>If you have any questions, contact: delphi-admin-survey-fb@lists.andrew.cmu.edu&nbsp;</div><div><br>You must be 18 years or older to take this survey. Are you 18 years or older and currently located in the US?</div>
+QID1_Choice1	Yes
+QID1_Choice2	No
+QID3_QuestionText	<div>In the past 24 hours, have <strong>you or anyone in your household</strong> experienced any of the following:</div>
+QID3_Choice1	Fever (100°F or higher)
+QID3_Choice2	Sore throat
+QID3_Choice3	Cough
+QID3_Choice4	Shortness of breath
+QID3_Choice5	Difficulty breathing
+QID3_Answer1	Yes
+QID3_Answer2	No
+QID4_QuestionText	<div>How many people in your household <b>(including&nbspyourself)</b> are <b>sick</b> (<b>fever</b>, along with <b>at least one other symptom</b> from the above list)?</div>
+QID5_QuestionText	How many people are there in your household <b>in total (including&nbsp;yourself)</b>?
+QID6_QuestionText	<p>What is your current ZIP code?</p>
+QID45_QuestionText	How many <b>additional</b> people in your local community that you know personally are <b>sick</b> (<b>fever</b>, along with <b>at least one other symptom</b> from the above list)?
+QID39_QuestionText	<i>The rest of the survey will go into more detail to get a better understanding of your personal experience.</i><p></p><p><br></p><p><b>In the past 24 hours</b>, have <b>you&nbsp;personally</b> experienced any of the following symptoms?&nbsp; (Select all that apply.)</p>
+QID39_Choice1	Fever
+QID39_Choice2	Cough
+QID39_Choice3	Shortness of breath
+QID39_Choice4	Difficulty breathing
+QID39_Choice5	Tiredness or exhaustion
+QID39_Choice6	Nasal congestion
+QID39_Choice7	Runny nose
+QID39_Choice8	Muscle or joint aches
+QID39_Choice9	Sore throat
+QID39_Choice10	Persistent pain or pressure in your chest
+QID39_Choice11	Nausea or vomiting
+QID39_Choice12	Diarrhea
+QID39_Choice13	Loss of smell or taste
+QID39_Choice14	Other (Please specify):
+QID39_Choice15	None of the above
+QID39_Choice16	Eye pain
+QID11_QuestionText	How long, in days, have you been experiencing these symptoms?
+QID12_QuestionText	You mentioned that you had a fever <b>in the past 24 hours</b>.&nbsp; Have you taken your temperature?
+QID12_Choice1	Yes
+QID12_Choice2	No
+QID42_QuestionText	<div>What was your highest temperature, in °F?</div>
+QID13_QuestionText	You mentioned that you experienced a cough <b>in the past 24 hours</b>.&nbsp; Did you cough up mucus?
+QID13_Choice1	Yes, I had a lot of mucus
+QID13_Choice2	        ➙Yes, I had a little mucus
+QID13_Choice3	No, I had a dry cough
+QID14_QuestionText	Have you been tested for COVID-19 (coronavirus) for your current illness?
+QID14_Choice1	Yes, I was tested, and received a positive diagnosis for COVID-19
+QID14_Choice2	Yes, I was tested, but it was negative for COVID-19
+QID14_Choice3	Yes, I was tested, but have not received the result
+QID14_Choice4	No, I tried to get tested but could not get a test
+QID14_Choice5	No, I have not tried to get tested
+QID15_QuestionText	<b>In the past 24 hours</b>, have you been to the hospital to seek care for your current illness?
+QID15_Choice1	Yes
+QID15_Choice2	➙No
+QID15_Choice3	I have tried, but been unable to receive care
+QID40_QuestionText	<div>Have you&nbsp;<span style="font-weight: bolder;">ever</span>&nbsp;been told by a doctor, nurse, or other health professional that you have any of the following medical conditions?</div><div><br>(Please select all that apply)</div>
+QID40_Choice1	Diabetes
+QID40_Choice2	Cancer (other than skin cancer)
+QID40_Choice3	Heart disease
+QID40_Choice4	High blood pressure
+QID40_Choice5	Asthma
+QID40_Choice6	Chronic lung disease such as COPD or emphysema 
+QID40_Choice7	Kidney disease
+QID40_Choice8	Autoimmune disorder such as rheumatoid arthritis or Crohn’s disease
+QID40_Choice9	None of the above
+QID17_QuestionText	Have you had a flu shot in the last 12 months?
+QID17_Choice1	Yes
+QID17_Choice2	No
+QID21_QuestionText	<p><b>In the past 5 days</b>, have you gone to work outside of your home?</p>
+QID21_Choice1	Yes
+QID21_Choice2	No
+QID32_QuestionText	<p><b>In the past 5 days</b>, have you worked at or visited a long-term care facility or nursing home?</p>
+QID32_Choice1	Yes
+QID32_Choice2	No
+QID23_QuestionText	<p><b>In the past 5 days</b>, have you worked or volunteered in a hospital, medical office, ambulance service, first responder services, or any other health care setting?</p>
+QID23_Choice1	Yes
+QID23_Choice2	No
+QID24_QuestionText	<p><b>In the past 5 days</b>,&nbsp;have you traveled outside of your state?</p>
+QID24_Choice1	Yes
+QID24_Choice2	No
+QID22_QuestionText	To what extent are you intentionally avoiding contact with other people?
+QID22_Choice1	All of the time
+QID22_Choice2	Most of the time; I only leave my home to buy food and other essentials
+QID22_Choice3	Some of the time; I have reduced the amount of times I am in public spaces, social gatherings, or at work
+QID22_Choice4	None of the time
+QID25_QuestionText	<p><strong>In the past 5 days</strong>, how often have you ...</p>
+QID25_Choice1	felt nervous, anxious, or on edge?
+QID25_Choice2	felt depressed?
+QID25_Answer1	None of the time
+QID25_Answer2	Some of the time
+QID25_Answer3	Most of the time
+QID25_Answer4	All the time
+QID36_QuestionText	How do you feel about the possibility that you or someone in your immediate family might become seriously ill from COVID-19 (coronavirus disease)?
+QID36_Choice1	Very worried
+QID36_Choice2	Somewhat worried
+QID36_Choice3	Not too worried
+QID36_Choice4	Not worried at all
+QID20_QuestionText	<p><b>In the past 24 hours</b>, with how many people have you had direct contact, <b>outside of your household</b>?&nbsp; Your best estimate is fine.</p><p><i><small>["Direct contact" means: a conversation lasting more than 5 minutes with a person who is closer than 6 feet away from you, or physical contact like hand-shaking, hugging, or kissing.]</small></i></p>
+QID20_Choice1	At work
+QID20_Choice2	Shopping for groceries and other essentials
+QID20_Choice3	In social situations
+QID20_Choice4	Other
+QID20_Answer1	Number
+QID18_QuestionText	<p><strong>In the past 24 hours</strong>, have you had direct contact with anyone who <u>recently</u> tested positive for COVID-19 (coronavirus)?</p><p><i><small>["Direct contact" means: a conversation lasting more than 5 minutes with a person who is closer than 6 feet away from you or physical contact like hand-shaking, hugging, or kissing.]</small></i><o:p></o:p></p>
+QID18_Choice1	Yes
+QID18_Choice2	Not to my knowledge
+QID19_QuestionText	<span lang="EN" style="color: rgb(0, 0, 0); font-size: 11pt; line-height: 16.8667px; font-family: Arial, sans-serif;"><span style="color: rgb(64, 64, 64); font-size: 15px;">Was this person a member of your household?</span></span>
+QID19_Choice1	Yes
+QID19_Choice2	No
+QID8_QuestionText	<p>&nbsp;In which state are you currently staying?</p>
+QID8_Choice1	Alabama
+QID8_Choice2	Alaska
+QID8_Choice3	Arizona
+QID8_Choice4	Arkansas
+QID8_Choice5	California
+QID8_Choice6	Colorado
+QID8_Choice7	Connecticut
+QID8_Choice8	Delaware
+QID8_Choice9	District of Columbia
+QID8_Choice10	Florida
+QID8_Choice11	Georgia
+QID8_Choice12	Hawaii
+QID8_Choice13	Idaho
+QID8_Choice14	Illinois
+QID8_Choice15	Indiana
+QID8_Choice16	Iowa
+QID8_Choice17	Kansas
+QID8_Choice18	Kentucky
+QID8_Choice19	Louisiana
+QID8_Choice20	Maine
+QID8_Choice21	Maryland
+QID8_Choice22	Massachusetts
+QID8_Choice23	Michigan
+QID8_Choice24	Minnesota
+QID8_Choice25	Mississippi
+QID8_Choice26	Missouri
+QID8_Choice27	Montana
+QID8_Choice28	Nebraska
+QID8_Choice29	Nevada
+QID8_Choice30	New Hampshire
+QID8_Choice31	New Jersey
+QID8_Choice32	New Mexico
+QID8_Choice33	New York
+QID8_Choice34	North Carolina
+QID8_Choice35	North Dakota
+QID8_Choice36	Ohio
+QID8_Choice37	Oklahoma
+QID8_Choice38	Oregon
+QID8_Choice39	Pennsylvania
+QID8_Choice40	Puerto Rico
+QID8_Choice41	Rhode Island
+QID8_Choice42	South Carolina
+QID8_Choice43	South Dakota
+QID8_Choice44	Tennessee
+QID8_Choice45	Texas
+QID8_Choice46	Utah
+QID8_Choice47	Vermont
+QID8_Choice48	Virginia
+QID8_Choice49	Washington
+QID8_Choice50	West Virginia
+QID8_Choice51	Wisconsin
+QID8_Choice52	Wyoming
+QID8_Choice53	I do not reside in the United States
+QID26_QuestionText	What is your gender?
+QID26_Choice1	Male
+QID26_Choice2	        ➙Female
+QID26_Choice3	        ➙Non-binary
+QID26_Choice4	Prefer to self-describe:
+QID26_Choice5	Prefer not to answer
+QID27_QuestionText	Are you currently pregnant?
+QID27_Choice1	Yes
+QID27_Choice2	No
+QID27_Choice3	Prefer not to answer
+QID27_Choice4	Not applicable
+QID37_QuestionText	What is your age?
+QID37_Choice1	18-24 years
+QID37_Choice2	25-34 years
+QID37_Choice3	35-44 years
+QID37_Choice4	45-54 years
+QID37_Choice5	55-64 years
+QID37_Choice6	65-74 years
+QID37_Choice7	75 years or older
+QID28_QuestionText	<p>How many children <b>under 18 years old</b> currently stay in your household?<o:p></o:p></p>
+QID30_QuestionText	<p>How many adults <b>between 18 and 64 years old</b>&nbsp;currently stay in your household (not including yourself)?</p>
+QID31_QuestionText	How many adults <span style="font-weight: bolder;">65 years old or older</span>&nbsp;currently stay in your household (not including yourself)?
+QID38_QuestionText	How much of a threat would you say the coronavirus outbreak is to your household’s finances?
+QID38_Choice1	A substantial threat
+QID38_Choice2	A moderate threat
+QID38_Choice3	Not much of a threat
+QID38_Choice4	Not a threat at all
