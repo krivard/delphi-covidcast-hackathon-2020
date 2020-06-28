@@ -43,7 +43,7 @@ We have provided you with the following datasets in the `data` directory:
   * `survey-data/weights_in/` - Accompanying weights
   * `survey-data/receiving_gold/` - Correct output files for Household CLI and Community CLI
   * `survey-data/params.json.medium` - A params file to process the last 8 days of synthetic data; baseline running time 86 minutes on an 8-core machine with 32G of memory
-  * `survey-data/params.json.large` - A params file to process all available synthetic data; baseline running time >18 hours on an 8-core machine with 32G of memory
+  * `survey-data/params.json.large` - A params file to process all available synthetic data; baseline running time 60 hours on an 8-core machine with 32G of memory
 * `covidcast_upload_spec.md` - Spec for the COVIDcast API file format
 * `signal_descriptions.pdf` - Technical documentation for all computations
 
