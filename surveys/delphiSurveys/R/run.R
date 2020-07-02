@@ -31,6 +31,7 @@ run_survey <- function(parameter_path = "params.json")
   data_full <- filter_complete_responses(data_full)
   data_full <- join_weights(data_full, params, weights = "full")
   msg_df("full data to share with research partners", data_full)
+  message("check 1")
 
   # write files for each specific output
   if ( "cids" %in% params$output )
@@ -46,6 +47,7 @@ run_survey <- function(parameter_path = "params.json")
   {
     write_individual(data_full, params)
   }
+  message("check 2")
   if ( "covidcast" %in% params$output )
   {
     write_hh_count_data(data_agg, cw_list, params)

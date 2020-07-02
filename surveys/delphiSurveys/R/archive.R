@@ -33,11 +33,12 @@ load_archive <- function(params)
 #' @export
 update_archive <- function(df, archive, params)
 {
-  seen_tokens <- df[, c("token", "start_dt", "ResponseId")]
+  seen_tokens <- select(df, c("token", "start_dt", "ResponseId"))
   seen_tokens <- bind_rows(archive$seen_tokens, seen_tokens)
   seen_tokens <- arrange(seen_tokens, .data$start_dt)
-  seen_tokens <- seen_tokens[!duplicated(seen_tokens$token), ]
-
+  seen_tokens <- distinct(seen_tokens, token, .keep_all=TRUE) #[!duplicated(seen_tokens$token), ]
+  seen_tokens <- as_tibble(seen_tokens)
+  
   create_dir_not_exist(params$archive_dir)
 
   write_rds(

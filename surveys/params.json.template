@@ -13,6 +13,8 @@
     "2020-05-15.2020-05-08.2020-05-15.Survey_of_COVID-Like_Illness_-_TODEPLOY_......_-_US_Expansion.csv"
   ],
   "output": [
+    "cids",
+    "individual",
     "covidcast",
     "community"
   ],

@@ -9,7 +9,7 @@
 write_hh_count_data <- function(df, cw_list, params)
 {
   ## weighted output files can only use surveys with weights
-  weight_df <- df[!is.na(df$weight), ]
+  weight_df <- filter(df, !is.na(weight)) # df[!is.na(df$weight), ]
 
   for (i in seq_along(cw_list))
   {
@@ -51,16 +51,20 @@ summarize_hh_count <- function(
 {
   df <- inner_join(df, crosswalk_data, by = "zip5")
   names(df)[names(df) == sprintf("hh_p_%s", metric)] <- "hh_p_metric"
-
+  df_values <- as_tibble(df)
+  message("check.hh 1")
   df_out <- as_tibble(expand.grid(
-    day = unique(df$day), geo_id = unique(df$geo_id), stringsAsFactors = FALSE
+    day = unique(df_values$day), geo_id = unique(df_values$geo_id), stringsAsFactors = FALSE
   ))
+  message("check.hh 2")
   df_out$val <- NA_real_
   df_out$sample_size <- NA_real_
   df_out$se <- NA_real_
   df_out$effective_sample_size <- NA_real_
-  past_n_days_matrix <- past_n_days(df_out$day, smooth_days)
+  #past_n_days_matrix <- past_n_days(df_out$day, smooth_days)
 
+  
+  
   for (i in seq_len(nrow(df_out)))
   {
     allowed_days <- past_n_days_matrix[i,]

@@ -14,8 +14,15 @@ load_responses_all <- function(params)
     input_data[[i]] <- load_response_one(params$input[i], params)
   }
   input_data <- bind_rows(input_data)
+  input_data <- lazy_dt(input_data)
   return(input_data)
 }
+
+foo <- function(input_data)
+{
+  return(lazy_dt(input_data))
+}
+
 
 #' Load a single set of responses
 #'
@@ -38,7 +45,7 @@ load_response_one <- function(input_filename, params)
   col_names <- stri_split(read_lines(full_path, n_max = 1L), fixed = ",")[[1]]
   col_names <- stri_replace_all(col_names, "", fixed = "\"")
   input_data <- read_csv(full_path, skip = 3L, col_names = col_names, col_types = cols())
-  input_data <- arrange(input_data, desc(.data$StartDate))
+  input_data <- arrange(input_data, desc(StartDate))
 
   # create new variables
   input_data$hh_fever <- (input_data$A1_1 == 1L)
@@ -74,7 +81,7 @@ load_response_one <- function(input_filename, params)
 #' @param params                 named list containing values "static_dir", "start_time",
 #'                               and "end_time"
 #'
-#' @importFrom dplyr anti_join between
+#' @importFrom dplyr anti_join between filter
 #' @importFrom rlang .data
 #' @export
 filter_responses <- function(input_data, seen_tokens_archive, params)
@@ -89,14 +96,14 @@ filter_responses <- function(input_data, seen_tokens_archive, params)
   }
 
   # take only the first instance of each token
-  input_data <- arrange(input_data, .data$StartDate)
-  input_data <- input_data[input_data$token != "",]
-  input_data <- input_data[!duplicated(input_data$token),]
+  input_data <- arrange(input_data, StartDate)
+  input_data <- filter(input_data, token != "") #input_data[input_data$token != "",]
+  input_data <- filter(input_data, !duplicated(token)) #input_data[!duplicated(input_data$token),]
 
-  input_data <- input_data[input_data$S1 == 1, ]
-  input_data <- input_data[input_data$DistributionChannel != "preview", ]
-  input_data <- input_data[between(input_data$start_dt, params$start_time, params$end_time),]
-  input_data <- input_data[input_data$zip5 %in% allowed_zips,]
+  input_data <- filter(input_data, S1 == 1) #input_data[input_data$S1 == 1, ]
+  input_data <- filter(input_data, DistributionChannel != "preview") # input_data[input_data$DistributionChannel != "preview", ]
+  input_data <- filter(input_data, between(start_dt, params$start_time, params$end_time)) #input_data[between(input_data$start_dt, params$start_time, params$end_time),]
+  input_data <- filter(input_data, zip5 %in% produce_allowed_zip5(params$static_dir)) #input_data[input_data$zip5 %in% allowed_zips,]
 
   return(input_data)
 }
@@ -114,7 +121,7 @@ create_data_for_aggregatation <- function(input_data)
 
   # create variables for cli and ili signals
   hh_cols <- c("hh_fever", "hh_soar_throat", "hh_cough", "hh_short_breath", "hh_diff_breath")
-  df$cnt_symptoms <- apply(df[,hh_cols], 1, sum, na.rm = TRUE)
+  df$cnt_symptoms <- apply(as_tibble(select(df, all_of(hh_cols))), 1, sum, na.rm = TRUE) # df[,hh_cols], 1, sum, na.rm = TRUE)
   df$hh_number_sick[df$cnt_symptoms <= 0] <- 0
   df$is_cli <- df$hh_fever & (
     df$hh_cough | df$hh_short_breath | df$hh_diff_breath
@@ -144,10 +151,10 @@ create_data_for_aggregatation <- function(input_data)
 #' @export
 filter_data_for_aggregatation <- function(df)
 {
-  df <- df[!is.na(df$hh_number_sick) & !is.na(df$hh_number_total), ]
-  df <- df[between(df$hh_number_sick, 0L, 30L), ]
-  df <- df[between(df$hh_number_total, 1L, 30L), ]
-  df <- df[df$hh_number_sick <= df$hh_number_total, ]
+  df <- filter(df, !is.na(hh_number_sick), !is.na(hh_number_total)) #df[!is.na(df$hh_number_sick) & !is.na(df$hh_number_total), ]
+  df <- filter(df, between(hh_number_sick, 0L, 30L)) #df[between(df$hh_number_sick, 0L, 30L), ]
+  df <- filter(df, between(hh_number_total, 1L, 30L)) #df[between(df$hh_number_total, 1L, 30L), ]
+  df <- filter(df, hh_number_sick <= hh_number_total) #df[df$hh_number_sick <= df$hh_number_total, ]
 
   return(df)
 }
@@ -195,7 +202,9 @@ create_complete_responses <- function(input_data)
 #' @export
 filter_complete_responses <- function(data_full)
 {
+  data_full <- as_tibble(data_full)
   data_full <- data_full[rowSums(!is.na(data_full)) >= 6, ]
-
+  data_full <- lazy_dt(data_full)
+  
   return(data_full)
 }

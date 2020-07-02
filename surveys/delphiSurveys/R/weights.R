@@ -19,7 +19,8 @@ write_cid <- function(data, type_name, params)
   )
 
   create_dir_not_exist(params$weights_out_dir)
-
+  
+  data <- as_tibble(data)
   msg_df(sprintf("writing weights data for %s", type_name), data)
   write_csv(select(data, "token"), file.path(params$weights_out_dir, fname), col_names = FALSE)
 }
