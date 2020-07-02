@@ -26,5 +26,5 @@ write_individual <- function(data_full_w, params)
   create_dir_not_exist(params$individual_dir)
 
   msg_df("saving individual data", data_full_w)
-  write_csv(select(data_full_w, -.data$token), file.path(params$individual_dir, fname_out))
+  fwrite(select(data_full_w, -.data$token), file.path(params$individual_dir, fname_out))
 }

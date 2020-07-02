@@ -114,7 +114,9 @@ create_data_for_aggregatation <- function(input_data)
 
   # create variables for cli and ili signals
   hh_cols <- c("hh_fever", "hh_soar_throat", "hh_cough", "hh_short_breath", "hh_diff_breath")
-  df$cnt_symptoms <- apply(df[,hh_cols], 1, sum, na.rm = TRUE)
+  cl <- makeCluster(detectCores()-1)
+  df$cnt_symptoms <- parApply(cl, df[,hh_cols], 1, sum, na.rm = TRUE)
+  stopCluster(cl)
   df$hh_number_sick[df$cnt_symptoms <= 0] <- 0
   df$is_cli <- df$hh_fever & (
     df$hh_cough | df$hh_short_breath | df$hh_diff_breath
@@ -176,8 +178,9 @@ create_complete_responses <- function(input_data)
   {
     data_full[[var]] <- as.numeric(data_full[[var]])
   }
-
-  vars <- sapply(data_full, class)
+  cl <- makeCluster(detectCores())
+  vars <- parSapply(cl,data_full, class)
+  stopCluster(cl)
   for (var in names(vars)[vars == "character"])
   {
     data_full[[var]] <- stri_replace_all(data_full[[var]], " ", regex = "  *")

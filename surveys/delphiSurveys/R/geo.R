@@ -74,12 +74,14 @@ produce_crosswalk_national <- function(zip_metadata)
 #' @export
 produce_crosswalk_county <- function(static_dir, zip_metadata)
 {
-  cweights <- lapply(zip_metadata$county_weights, fromJSON)
+  cl <- makeCluster(detectCores()-1)
+  cweights <- parLapply(cl, zip_metadata$county_weights, fromJSON)
   crosswalk_county <- tibble(
-    zip5 = rep(zip_metadata$zip5, sapply(cweights, length)),
-    geo_id = unlist(lapply(cweights, names)),
+    zip5 = rep(zip_metadata$zip5, parSapply(cl, cweights, length)),
+    geo_id = unlist(parLapply(cl, cweights, names)),
     weight_in_location = unlist(cweights) / 100
   )
+  stopCluster(cl)
   crosswalk_county <- crosswalk_county[crosswalk_county$weight_in_location > 0,]
 
   return(crosswalk_county)

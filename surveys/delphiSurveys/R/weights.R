@@ -21,7 +21,7 @@ write_cid <- function(data, type_name, params)
   create_dir_not_exist(params$weights_out_dir)
 
   msg_df(sprintf("writing weights data for %s", type_name), data)
-  write_csv(select(data, "token"), file.path(params$weights_out_dir, fname), col_names = FALSE)
+  fwrite(select(data, "token"), file.path(params$weights_out_dir, fname), col.names = FALSE)
 }
 
 #' Add weights to a dataset of responses
@@ -48,7 +48,9 @@ join_weights <- function(data, params, weights = c("step1", "full"))
 
   weights_files <- dir(params$weights_in_dir, pattern = pattern, full.names = TRUE)
   weights_files <- sort(weights_files)
-  agg_weights <- bind_rows(lapply(weights_files, read_csv, col_types = "cd"))
+  cl <- makeCluster(detectCores()-1)
+  agg_weights <- bind_rows(parLapply(cl, weights_files, read_csv, col_types = "cd"))
+  stopCluster(cl)
   agg_weights <- agg_weights[!duplicated(agg_weights$cid),]
   data <- left_join(data, agg_weights, by = c("token" = "cid"))
 

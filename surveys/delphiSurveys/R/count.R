@@ -60,7 +60,6 @@ summarize_hh_count <- function(
   df_out$se <- NA_real_
   df_out$effective_sample_size <- NA_real_
   past_n_days_matrix <- past_n_days(df_out$day, smooth_days)
-
   for (i in seq_len(nrow(df_out)))
   {
     allowed_days <- past_n_days_matrix[i,]

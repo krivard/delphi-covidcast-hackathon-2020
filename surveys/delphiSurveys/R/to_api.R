@@ -31,6 +31,6 @@ write_data_api <- function(data, params, geo_name, signal_name)
       "saving data for API to %-35s",
       sprintf("%s_%s_%s", tunit, geo_name, signal_name)
     ), df)
-    write_csv(df, file_out)
+    fwrite(df,file_out)
   }
 }
