@@ -5,6 +5,7 @@
 #'                  files are found
 #'
 #' @importFrom dplyr bind_rows
+#' @importFrom dtplyr lazy_dt
 #' @export
 load_responses_all <- function(params)
 {
@@ -16,11 +17,6 @@ load_responses_all <- function(params)
   input_data <- bind_rows(input_data)
   input_data <- lazy_dt(input_data)
   return(input_data)
-}
-
-foo <- function(input_data)
-{
-  return(lazy_dt(input_data))
 }
 
 
@@ -116,16 +112,16 @@ filter_responses <- function(input_data, seen_tokens_archive, params)
 create_data_for_aggregatation <- function(input_data)
 {
   df <- input_data
-  df$weight_unif <- 1.0
-  df$day <- stri_replace_all(df$date, "", fixed = "-")
+  df <- mutate(df, weight_unif=1.0) 
+  df <- mutate(df, day=stri_replace_all(select(df,date), "", fixed = "-"))
 
   # create variables for cli and ili signals
   hh_cols <- c("hh_fever", "hh_soar_throat", "hh_cough", "hh_short_breath", "hh_diff_breath")
-  df$cnt_symptoms <- apply(as_tibble(select(df, all_of(hh_cols))), 1, sum, na.rm = TRUE) # df[,hh_cols], 1, sum, na.rm = TRUE)
-  df$hh_number_sick[df$cnt_symptoms <= 0] <- 0
-  df$is_cli <- df$hh_fever & (
-    df$hh_cough | df$hh_short_breath | df$hh_diff_breath
-  )
+  df <- mutate(df, cnt_symptoms=apply(as_tibble(select(df, all_of(hh_cols))), 1, sum, na.rm = TRUE)) # df[,hh_cols], 1, sum, na.rm = TRUE)
+  df <- mutate(df, hh_number_sick = replace(hh_number_sick, cnt_symptoms <= 0, 0))
+  df <- mutate(df, is_cli = hh_fever & (
+    hh_cough | hh_short_breath | hh_diff_breath
+  ))
   df$is_cli[is.na(df$is_cli)] <- FALSE
   df$is_ili <- df$hh_fever & (df$hh_soar_throat | df$hh_cough)
   df$is_ili[is.na(df$is_ili)] <- FALSE
